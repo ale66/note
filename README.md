@@ -2,9 +2,9 @@
 
 This repository is ancillary to the eponymous submission to pVLDB.
 
-The available public dataset is for validation purposes.
+The available [HMEQ public dataset](https://github.com/ale66/note/hmeq.csv) is for validation purposes.
 
-The Jupyther-style notebook has been designed by [Seongil Han](https://www.dcs.bbk.ac.uk/about/people/research-students/han-seongil/)
+The [Jupyther-style notebook](https://github.com/ale66/note/note.jpynb) has been designed by [Seongil Han](https://www.dcs.bbk.ac.uk/about/people/research-students/han-seongil/)
 
 ## What it does
 Imbalanced classes, i.e., a disproportionate ratio of observations in each class, are a common issue in the Machine Learning classification for credit scoring. 
