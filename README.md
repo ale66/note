@@ -6,15 +6,11 @@ The available public dataset is for validation purposes.
 
 The Jupyther-style notebook has been designed by [Seongil Han](https://www.dcs.bbk.ac.uk/about/people/research-students/han-seongil/)
 
-## What is does
-Financial institutions evaluate the potential risk and the creditworthiness of potential borrowers using credit scoring models. 
-This impedes the loss that could be incurred by defaulted credit. 
-The profit and loss of financial institutions thus highly depends on credit scoring models. 
-
-Recently, most financial institutions have used the state-of-the-art machine learning models for accurate credit scoring. 
-However, imbalanced classes, a disproportionate ratio of observations in each class, are a common issue in the machine learning classification for credit scoring. 
+## What it does
+Imbalanced classes, i.e., a disproportionate ratio of observations in each class, are a common issue in the Machine Learning classification for credit scoring. 
 Although Synthetic Minority Oversampling TEchnique (SMOTE) has been the most widely used to oversample the minority class, its performance is still not reaching the acceptable level as neighboring examples which can be from other classes are not taken into consideration. 
-It also performs poorly when data is high-dimensional and non-linear. When the overlapping of classes is increased, it can introduce additional noise. As an alternative, Generative Adversarial Networks (GAN) has recently gained popularity. 
+It also performs poorly when data is high-dimensional and non-linear. When the overlapping of classes is increased, it can introduce additional noise. 
+As an alternative, Generative Adversarial Networks (GAN) has recently gained popularity. 
 
 GANs generate synthetic distribution after learning original data which makes it capable to model complex and non-linear distributions. 
 Several recent studies based on conditional Wasserstein GANs (cWGANs) have shown robust performance in modelling tabular data for credit scoring with both numerical and categorical features. 
